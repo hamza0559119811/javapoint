@@ -23,4 +23,5 @@ class SingleInheritance {
         d.eat();
         d.name();
     
+    }
 }
