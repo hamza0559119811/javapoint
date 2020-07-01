@@ -8,7 +8,7 @@ public class TestArray1 {
 
         TestArray2 a9 = new TestArray2();
         a9.arp();
-        TestArray3 mini = new TestArray3();
+        //TestArray3 mini = new TestArray3();
         //passing array to method
         TestArray3.min(a9.arr1);
         //anonymous array
@@ -16,7 +16,7 @@ public class TestArray1 {
 
         //multidimensional jagged array
         TestJaggedArray jgr = new TestJaggedArray();
-        jgr.TestJaggedArray();
+        jgr.TestJaggedArrays();
 
 
     } 
@@ -49,7 +49,7 @@ class TestArray3{
 // multidimensional array , jagged array
 
 class TestJaggedArray{
-    void TestJaggedArray(){
+    void TestJaggedArrays(){
         int jarr[][] = new int[3][];
         jarr[0] = new int[3];
         jarr[1] = new int[4];
